@@ -2,14 +2,14 @@
 Welcome to the Rave Build PHP Coding Test! A lot of our product at Rave 
 involves managing projects, and the tasks required to complete those projects.
 This is reflected in this codebase, which is a few classes that represent some 
-common functionality at Rave. We expect to spend **30 minutes to 1 hour** on this test.
+common functionality at Rave.
 Your objectives are:
 
 1. Get the tests passing
-2. Make the rest of the code as good as you can make it (whatever that means to you)
-3. Note down any choices or assumptions you made and why in this README
+2. Ensure that the rest of the code meets a high standard (whatever that means to you)
+3. Note down any choices or assumptions you made and why you made them in this README. For example, "I'm assuming that Task names are unique, otherwise they might not make sense" when compared to each other.
 4. Note down what you would do if you had more time in this README
-5. Send us this repository (or a link to your fork)!
+5. Delete the `vendor` directory, then zip this directory and email it to us
 
 **Feel free to edit any files in this repository** as part of this exercise.
 
