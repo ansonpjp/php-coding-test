@@ -1,7 +1,7 @@
 RUN_PHP = @docker compose run --rm php
 
 cli:
-	@docker compose run --interactive --tty --rm php bash
+	@docker compose run --interactive --tty --rm php sh
 
 run: install
 	$(RUN_PHP) php ./src/program.php
