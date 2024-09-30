@@ -19,7 +19,9 @@ class Project
         $task = new Task;
         $task->id = $id;
         $task->name = $name;
-        $this->tasks->push($id, $task);
+
+        // storing task by ID
+        $this->tasks->put($id, $task);
     }
 
     public function findTask($id): Task
@@ -29,6 +31,11 @@ class Project
 
     public function deleteTask($id)
     {
-        // not yet implemented
+        $this->tasks->forget($id);
+    }
+
+    public function getTask($id): ?string{
+     $task = $this->tasks->get($id);
+     return $task ? $task->name : null;
     }
 }
