@@ -44,7 +44,15 @@ it if you would like to just run PHP code to debug things.
 
 ## My notes
 ### Choices or assumptions I made and reasons why
-* E.g. I assumed that task names were unique
+* I assumed that task IDs are unique
+* I assumed that getTask function is to return the name of the TASK if its exist, else return NULL
 
 ### Things I would do if I had more time
-* E.g. I would have rewritten it to use Rust because it's super fast and that's what Khan Academy did!
+* I would have added code to handle duplicate task names, and to handle tasks with same name
+* Handle tasks that needs to do synchronously and asynchronously (with dispatchable jobs)
+* Check for existing IDs, and to overwriting existing task with same ID
+* I would add more test cases such as test for updating a Task
+* I would add validations when adding task such as ID is unique and name is not empty
+* I would add proper documentation and comments so that each method and class is more readable
+* I would add encapsulation and validations for Task.php and Project.php 
+* Type decalarations will be added to each function
