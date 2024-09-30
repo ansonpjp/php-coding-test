@@ -46,6 +46,7 @@ it if you would like to just run PHP code to debug things.
 ### Choices or assumptions I made and reasons why
 * I assumed that task IDs are unique
 * I assumed that getTask function is to return the name of the TASK if its exist, else return NULL
+* I assumed addTask function is to store Task based on its ID
 
 ### Things I would do if I had more time
 * I would have added code to handle duplicate task names, and to handle tasks with same name
